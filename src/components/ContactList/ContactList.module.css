@@ -1,0 +1,16 @@
+.deleteBtn {
+    display: block;
+    margin: 10px;
+    width: 20%;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #4C4CFF;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(62, 62, 202)
+}

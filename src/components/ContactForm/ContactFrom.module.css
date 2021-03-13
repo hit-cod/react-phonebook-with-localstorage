@@ -1,0 +1,41 @@
+.formSection {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.nameInput, .numberInput {
+    margin: 0 10px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    height: 23px;
+}
+
+.nameInput::placeholder, .numberInput::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    padding-left: 7px;
+}
+
+.addBtn {
+    margin-top: 20px;
+    width: 40%;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: #4C4CFF;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: rgb(62, 62, 202)
+}
+
+@media (max-width: 640px) {
+    .nameInput, .numberInput {
+        display: block;
+        margin: 14px auto;
+    }
+
+}
